@@ -1,6 +1,7 @@
 from flask import Flask
 from google import genai
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 GENAI_KEY = os.getenv("GENAI_KEY")
